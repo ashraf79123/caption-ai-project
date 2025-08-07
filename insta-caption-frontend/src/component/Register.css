@@ -1,0 +1,68 @@
+/* Register.css */
+
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register-container {
+  max-width: 450px;
+  margin: 70px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.register-container:hover {
+  transform: translateY(-5px);
+}
+
+.form-heading {
+  text-align: center;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-field {
+  padding: 12px 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 10px;
+}
+
+.input-field:focus   {
+  border-color: #00bfff;
+  box-shadow: 0 0 6px rgba(0, 191, 255, 0.4);
+}
+
+.register-button {
+  background-color: #00bfff;
+  color: #fff;
+  padding: 15px ;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.register-button:hover {
+  background-color: #009ad6;
+  transform: scale(1.02);
+}

@@ -1,0 +1,63 @@
+/* Login.css */
+
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.form-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+  margin-bottom: 24px;
+  font-size: 26px;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: border-color 0.2s;
+}
+
+form input:focus {
+  border-color: #4facfe;
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #4facfe;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #00c6ff;
+}
